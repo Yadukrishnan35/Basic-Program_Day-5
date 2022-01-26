@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class FlipCoin {
 
-public static void percentage(int flipCount , float headCount , float tailCount) 
-{
+	public static void percentage(int flipCount , float headCount , float tailCount) 
+	{
 		
 		float headPercentage = (float)(headCount * 100) / flipCount;
 		float tailPercentage = (float)(tailCount * 100) / flipCount;
 		System.out.println("Percentage of Head :  " +headPercentage);
 		System.out.println("Percentage of Tail : " +tailPercentage );
-}
+	}
 	public static void main(String[] args){
 	
 		Scanner sc = new Scanner(System.in);	
@@ -37,8 +37,7 @@ public static void percentage(int flipCount , float headCount , float tailCount)
 			System.out.println("Ivalid Input");
 		}
 		percentage(flipCount, headCount, tailCount);
-		
+	    sc.close();
 	}
-
 
 }

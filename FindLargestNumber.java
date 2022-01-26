@@ -10,7 +10,7 @@ public class FindLargestNumber {
 			System.out.println("The largest Number is : " + num1);
 		}
 		else if(num2 > num1 && num2 > num3){
-			System.out.println(" The largest Number : " + num2);                 //num1=20 num2=30 num3=60
+			System.out.println(" The largest Number : " + num2);                 
 		}
 		else {
 			System.out.println("The largest Number : " + num3);
@@ -22,16 +22,16 @@ public class FindLargestNumber {
 	
 public static void main(String[] args) 
 	{
-	    	// TODO Auto-generated method stub
-     System.out.println("Enter the first value:");
-     Scanner sc= new Scanner(System.in);
-     int a=sc.nextInt();
-     System.out.println("Enter the second value:");
-	  int b=sc.nextInt();
-	  System.out.println("Enter the third value:");
-	  int c=sc.nextInt();
-	  largest(a, b, c);
-	
+	    
+    	System.out.println("Enter the first value:");
+    	Scanner sc= new Scanner(System.in);
+    	int a=sc.nextInt();
+    	System.out.println("Enter the second value:");
+    	int b=sc.nextInt();
+    	System.out.println("Enter the third value:");
+    	int c=sc.nextInt();
+    	largest(a, b, c);
+    	sc.close();
 	
 	}
 

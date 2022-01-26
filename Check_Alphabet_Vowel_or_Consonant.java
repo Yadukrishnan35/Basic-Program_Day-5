@@ -34,7 +34,7 @@ public class Check_Alphabet_Vowel_or_Consonant {
 	   Scanner sc=new Scanner(System.in);
 	   char ch=sc.next().charAt(0);
 	   checkalphabet(ch);
-	
+	   sc.close(); 
 	}
 
 }
